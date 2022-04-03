@@ -85,7 +85,7 @@ console.log(threeChecker(num3))
 // a) Create a test with expect statements for each of the variables provided.
 
 describe("capitalizeLetter", () => {
-    it("returns eat food or keep working based on input", () => {
+    it("returns an array with all the words first letters capitalized", () => {
         expect(capitalizeLetter(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
         expect(capitalizeLetter(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
     })
@@ -127,6 +127,14 @@ console.log(capitalizeLetter(randomNouns2))
 // --------------------3) Create a function that takes in a string and logs the index of the first vowel.
 
 // a) Create a test with expect statements for each of the variables provided.
+
+describe("areYouHungry", () => {
+    it("returns eat food or keep working based on input", () => {
+        expect(areYouHungry("yes")).toEqual("eat food")
+        expect(areYouHungry("no")).toEqual("keep working")
+    })
+})
+
 
 const vowelTester1 = "learn"
 // Expected output: 1
