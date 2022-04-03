@@ -10,7 +10,7 @@
 var cohort = "Bravo 2022"
 // console.log(cohort.split(""))
 
-// a) Your answer:  [ 'B', 'r', 'a', 'v', 'o', ' ', '2', '0','2', '2']
+// a) Your answer:  ['B', 'r', 'a', 'v', 'o', ' ', '2', '0','2', '2']
 
 // b) Verify and explain: I have verified this answer as correct. Since the split method breaks down an array of strings into substrings, the answer in this case will be as stated on line 13.
 
@@ -33,7 +33,7 @@ const greeter = (name) => {
 var multBy2 = [4, 5, 6, 7, 8].map(value => value * 2)
 // console.log(multBy2)
 
-// a) Your answer:[ 8, 10, 12, 14, 16 ]
+// a) Your answer:[8, 10, 12, 14, 16]
 
 // b) Verify and explain: I have verified my answer as correct. In this case, we have an array having each of its values being mapped over and each value is multiplied by 2.
 
@@ -43,8 +43,8 @@ var multBy2 = [4, 5, 6, 7, 8].map(value => value * 2)
 var onlyOdds = [11, 12, 13, 14, 15].filter(value => value % 2 !== 0)
 // console.log(onlyOdds)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: [11, 13, 15]
+// b) Verify and explain: I have verified my answer as correct. In this case, we have an array having each of its values being filtered over with simple arithmatic. It divides each value in the arry by 2. If there is a remainder left over, it logs it since it is an odd number and fulfills the objectiove of this code.
 
 
 // --------------------5) What will this log?
