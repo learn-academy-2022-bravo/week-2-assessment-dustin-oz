@@ -21,9 +21,10 @@ const greeter = (name) => {
   `Hello, ${name}!`
 
 }
-console.log(greeter("LEARN Student"))
+// console.log(greeter("LEARN Student"))
 
 // a) Your answer: This function is missing a return so this particular console log will return UNDEFINED.
+
 // b) Verify and explain:After running this console log, I was able to verify that my answer and reasoning were correct. I then verified that placing a return on line 21 before the `Hello... ` will correct the issue.
 
 
@@ -32,8 +33,9 @@ console.log(greeter("LEARN Student"))
 var multBy2 = [4, 5, 6, 7, 8].map(value => value * 2)
 // console.log(multBy2)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:[ 8, 10, 12, 14, 16 ]
+
+// b) Verify and explain: I have verified my answer as correct. In this case, we have an array having each of its values being mapped over and each value is multiplied by 2.
 
 
 // --------------------4) What will this log?
