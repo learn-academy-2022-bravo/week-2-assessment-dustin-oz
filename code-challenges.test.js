@@ -57,10 +57,10 @@ const num3 = -7
 
 // b) Create the function that makes the test pass.
 
-// ----- // PSEUDO CODE:
-// Create a function named threeChecker that takes in a parameter called number
-// Conditionally check whether a given number is divisible by 3
-// Return IF the number is divisible by three ELSE return that it is not.
+        // ----- // PSEUDO CODE:
+        // Create a function named threeChecker that takes in a parameter called number
+        // Conditionally check whether a given number is divisible by 3
+        // Return IF the number is divisible by three ELSE return that it is not.
 
 const threeChecker = (number) => {
     if (number % 3 === 0) {
@@ -74,9 +74,9 @@ const threeChecker = (number) => {
 // console.log(threeChecker(num2))
 // console.log(threeChecker(num3))
 
-    // PASS./ code - challenges.test.js
-    // threeChecker
-    //     ✓ takes a number as an argument and decides if the number is evenly divisble by three or not(4 ms)
+        // PASS./ code - challenges.test.js
+        // threeChecker
+        //     ✓ takes a number as an argument and decides if the number is evenly divisble by three or not(4 ms)
 
 
 
@@ -109,11 +109,11 @@ const randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deducti
 
 // b) Create the function that makes the test pass.
 
-// ----- // PSEUDO CODE:
-// Create a function called capitalizeLetter that takes in an array called wordsArray
-// Map over each word in the array
-// Return the value at the 0 position in each word use the toUpperCase to capitalize it 
-// then + the above line to the value of the rest of the string using the sustring method.
+        // ----- // PSEUDO CODE:
+        // Create a function called capitalizeLetter that takes in an array called wordsArray
+        // Map over each word in the array
+        // Return the value at the 0 position in each word use the toUpperCase to capitalize it
+        // then + the above line to the value of the rest of the string using the sustring method.
 
 const capitalizeLetter = (wordsArray) => {
     return wordsArray.map(value => value[0].toUpperCase() + value.substring(1))
