@@ -10,19 +10,21 @@
 var cohort = "Bravo 2022"
 // console.log(cohort.split(""))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:  [ 'B', 'r', 'a', 'v', 'o', ' ', '2', '0','2', '2']
+
+// b) Verify and explain: I have verified this answer as correct. Since the split method breaks down an array of strings into substrings, the answer in this case will be as stated on line 13.
 
 
 // --------------------2) What will this log?
 
 const greeter = (name) => {
   `Hello, ${name}!`
-}
-// console.log(greeter("LEARN Student"))
 
-// a) Your answer:
-// b) Verify and explain:
+}
+console.log(greeter("LEARN Student"))
+
+// a) Your answer: This function is missing a return so this particular console log will return UNDEFINED.
+// b) Verify and explain:After running this console log, I was able to verify that my answer and reasoning were correct. I then verified that placing a return on line 21 before the `Hello... ` will correct the issue.
 
 
 // --------------------3) What will this log?
