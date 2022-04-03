@@ -71,7 +71,7 @@ class Learn {
   }
 }
 var learnStudent = new Learn("George")
-// console.log(learnStudent)
+console.log(learnStudent)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: {student:'George',cohort:'Bravo',year: 2022}
+// b) Verify and explain: I have verified that my answe is correct. In this case, we have a properly written javascript class with a constructor taking in a name as well as two hard coded values in the cohort and year positions respectively. After instantiation, we see that we have created a single instance of Learn via the learnStudent variable and once logged, we simply get back the class with the name filled in since it was passed in during instantiation.
