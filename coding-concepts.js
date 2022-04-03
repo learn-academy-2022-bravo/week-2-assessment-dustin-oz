@@ -57,8 +57,8 @@ var myCodingSkills = {
 }
 // console.log(myCodingSkills.languages[0])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: JavaScript
+// b) Verify and explain: Verified correct. The reason it logs JavaScript in this case is because we first pass in the object on the page (myCodingSkills) and then using dot notation we tap into the language value and at this point, we simply access any point in the array like normal, with the index.. which starts at zero of course for the first word and so on.
 
 
 // --------------------STRETCH: What will this log?
