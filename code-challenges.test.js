@@ -30,13 +30,15 @@ const numbersArray2 = [24, 27, 30, 33, 36]
 
 // a) Create a test with expect statements for each of the variables provided.
 
-describe("threeChecker", () => {
-    it("takes a number as an argument and decides if the number is evenly divisble by three or not", () => {
-        expect(threeChecker(num1)).toEqual("15 is divisible by three")
-        expect(threeChecker(num2)).toEqual("0 is divisible by three")
-        expect(threeChecker(num3)).toEqual("-7 is not divisible by three")
-    })
-})
+// describe("threeChecker", () => {
+//     it("takes a number as an argument and decides if the number is evenly divisble by three or not", () => {
+//         expect(threeChecker(num1)).toEqual("15 is divisible by three")
+//         expect(threeChecker(num2)).toEqual("0 is divisible by three")
+//         expect(threeChecker(num3)).toEqual("-7 is not divisible by three")
+//     })
+// })
+
+        // ----- OUTPUT -----
         // JEST test returns the proper error. - Function veriified
 
         // threeChecker
@@ -68,9 +70,9 @@ const threeChecker = (number) => {
     }
 }
 
-console.log(threeChecker(num1))
-console.log(threeChecker(num2))
-console.log(threeChecker(num3))
+// console.log(threeChecker(num1))
+// console.log(threeChecker(num2))
+// console.log(threeChecker(num3))
 
     // PASS./ code - challenges.test.js
     // threeChecker
@@ -84,13 +86,14 @@ console.log(threeChecker(num3))
 
 // a) Create a test with expect statements for each of the variables provided.
 
-describe("capitalizeLetter", () => {
-    it("returns an array with all the words first letters capitalized", () => {
-        expect(capitalizeLetter(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
-        expect(capitalizeLetter(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
-    })
-})
+// describe("capitalizeLetter", () => {
+//     it("returns an array with all the words first letters capitalized", () => {
+//         expect(capitalizeLetter(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
+//         expect(capitalizeLetter(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
+//     })
+// })
 
+        // ----- OUTPUT -----
         // capitalizeLetter
         //     ✕ returns eat food or keep working based on input(1 ms)
 
@@ -116,8 +119,8 @@ const capitalizeLetter = (wordsArray) => {
     return wordsArray.map(value => value[0].toUpperCase() + value.substring(1))
 }
 
-console.log(capitalizeLetter(randomNouns1))
-console.log(capitalizeLetter(randomNouns2))
+// console.log(capitalizeLetter(randomNouns1))
+// console.log(capitalizeLetter(randomNouns2))
 
         // PASS./ code - challenges.test.js
         // capitalizeLetter
@@ -128,8 +131,20 @@ console.log(capitalizeLetter(randomNouns2))
 
 // a) Create a test with expect statements for each of the variables provided.
 
+describe("vowelFinder", () => {
+    it("takes in a string and logs the index of the first vowel", () => {
+        expect(vowelFinder(vowelTester1)).toEqual(1)
+        expect(vowelFinder(vowelTester2)).toEqual(0)
+        expect(vowelFinder(vowelTester3)).toEqual(2)
+    })
+})
+        // ----- OUTPUT -----
+        // vowelFinder
+        //     ✕ takes in a string and logs the index of the first vowel(1 ms)
 
+        //   ● vowelFinder › takes in a string and logs the index of the first vowel
 
+        // ReferenceError: vowelFinder is not defined
 
 const vowelTester1 = "learn"
 // Expected output: 1
