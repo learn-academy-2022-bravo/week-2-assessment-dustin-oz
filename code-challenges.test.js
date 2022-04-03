@@ -174,7 +174,7 @@ console.log(vowelFinder(vowelTester1))
 console.log(vowelFinder(vowelTester2))
 console.log(vowelFinder(vowelTester3))
 
-        // ----- OUTPUT -----
+// ----- OUTPUT -----
         // PASS./ code - challenges.test.js
         // vowelFinder
         //     ✓ takes in a string and logs the index of the first vowel(3 ms)
