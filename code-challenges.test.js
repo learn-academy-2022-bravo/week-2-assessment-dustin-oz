@@ -128,12 +128,7 @@ console.log(capitalizeLetter(randomNouns2))
 
 // a) Create a test with expect statements for each of the variables provided.
 
-describe("areYouHungry", () => {
-    it("returns eat food or keep working based on input", () => {
-        expect(areYouHungry("yes")).toEqual("eat food")
-        expect(areYouHungry("no")).toEqual("keep working")
-    })
-})
+
 
 
 const vowelTester1 = "learn"
