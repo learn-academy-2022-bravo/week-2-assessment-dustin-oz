@@ -30,13 +30,13 @@ const numbersArray2 = [24, 27, 30, 33, 36]
 
 // a) Create a test with expect statements for each of the variables provided.
 
-// describe("threeChecker", () => {
-//     it("takes a number as an argument and decides if the number is evenly divisble by three or not", () => {
-//         expect(threeChecker(num1)).toEqual("15 is divisible by three")
-//         expect(threeChecker(num2)).toEqual("0 is divisible by three")
-//         expect(threeChecker(num3)).toEqual("-7 is not divisible by three")
-//     })
-// })
+describe("threeChecker", () => {
+    it("takes a number as an argument and decides if the number is evenly divisble by three or not", () => {
+        expect(threeChecker(num1)).toEqual("15 is divisible by three")
+        expect(threeChecker(num2)).toEqual("0 is divisible by three")
+        expect(threeChecker(num3)).toEqual("-7 is not divisible by three")
+    })
+})
 
         // ----- OUTPUT -----
         // JEST test returns the proper error. - Function veriified
@@ -70,9 +70,9 @@ const threeChecker = (number) => {
     }
 }
 
-// console.log(threeChecker(num1))
-// console.log(threeChecker(num2))
-// console.log(threeChecker(num3))
+console.log(threeChecker(num1))
+console.log(threeChecker(num2))
+console.log(threeChecker(num3))
 
         // PASS./ code - challenges.test.js
         // threeChecker
@@ -86,12 +86,12 @@ const threeChecker = (number) => {
 
 // a) Create a test with expect statements for each of the variables provided.
 
-// describe("capitalizeLetter", () => {
-//     it("returns an array with all the words first letters capitalized", () => {
-//         expect(capitalizeLetter(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
-//         expect(capitalizeLetter(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
-//     })
-// })
+describe("capitalizeLetter", () => {
+    it("returns an array with all the words first letters capitalized", () => {
+        expect(capitalizeLetter(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
+        expect(capitalizeLetter(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
+    })
+})
 
         // ----- OUTPUT -----
         // capitalizeLetter
@@ -119,8 +119,8 @@ const capitalizeLetter = (wordsArray) => {
     return wordsArray.map(value => value[0].toUpperCase() + value.substring(1))
 }
 
-// console.log(capitalizeLetter(randomNouns1))
-// console.log(capitalizeLetter(randomNouns2))
+console.log(capitalizeLetter(randomNouns1))
+console.log(capitalizeLetter(randomNouns2))
 
         // PASS./ code - challenges.test.js
         // capitalizeLetter
@@ -155,3 +155,26 @@ const vowelTester3 = "challenges"
 
 
 // b) Create the function that makes the test pass.
+
+// ----- // PSEUDO CODE:
+// Create a function called vowelFinder that takes in a parameter called string
+// Create a new variable called letterTargets to hold the vowels we are looking for as a string
+// loop through the LENGTH of each supplied string and return "i" at the first vowel position
+
+const vowelFinder = (string) => {
+    let letterTargets = 'aeiou'
+    for (let i = 0; i < string.length; i++) {
+        if (letterTargets.includes(string[i])) {
+            return i
+        }
+    }
+}
+
+console.log(vowelFinder(vowelTester1))
+console.log(vowelFinder(vowelTester2))
+console.log(vowelFinder(vowelTester3))
+
+        // ----- OUTPUT -----
+        // PASS./ code - challenges.test.js
+        // vowelFinder
+        //     ✓ takes in a string and logs the index of the first vowel(3 ms)
