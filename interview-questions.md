@@ -8,9 +8,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What is the difference between a parameter and an argument?
 
-  Your answer:
+  Your answer: A parameter gets passed into a function for example, and the argument is like a reference to the parameter inside the codeblock.
 
-  Researched answer:
+  Researched answer: After research, function parameters are listed in the function definition. Function arguments are the values passed to the function.
 
 
 
