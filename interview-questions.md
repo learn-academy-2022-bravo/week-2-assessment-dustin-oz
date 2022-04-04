@@ -48,9 +48,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 6. STRETCH: What is hoisting in JavaScript?
 
-  Your answer:
+  Your answer: From memory, hoisting is what javascript does by default. It basically means that a variable can be used before it is declared. So you can declare it after it was used.
 
-  Researched answer:
+  Researched answer: After researching this a bit, I learned the interpreter seems to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. It is this moving to the top of their scope, as I understand it, that makes it so that you can safely call on a variable before it is declared.
 
 
 
