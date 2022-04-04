@@ -58,12 +58,13 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Research and define the following terms to the best of your ability.
 
-1. Class Inheritance:
+1. Class Inheritance: When a class inherits all the methods from another class
 
-2. React:
+2. React: A free and open-source front-end JavaScript library for building user interfaces based on UI components.
 
-3. React state:
+3. React state: A built-in React object that is used to contain data or information about the component. A component's 
+   state can change over time; whenever it changes, the component re-renders.
 
-4. React lifecycle methods:
+4. React lifecycle methods: Some lifecycle methods are componentDidMount(), constructor(), componentDidUpdate() and more..
 
-5. DOM:
+5. DOM: Stands for: The Document Object Model - the data representation of the objects on the web. The DOM is essentially everything you see on a web page.
